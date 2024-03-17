@@ -63,7 +63,7 @@ public class Program {
 		
 		int month = Integer.parseInt(monthAndYear[0]);
 		int year = Integer.parseInt(monthAndYear[1]);
-		
+				
 		System.out.println("\nName: " + worker.getName());
 		System.out.println("Department: " + worker.getDepartment());
 		System.out.println("Income: " + worker.income(month, year));

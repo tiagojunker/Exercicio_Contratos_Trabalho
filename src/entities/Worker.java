@@ -69,14 +69,15 @@ public class Worker {
 		contracts.remove(contract);
 	}
 	
-	public double income(int year, int month) {
+	public double income(int month, int year) {
 		
 		double sum = baseSalary;
 		
+		
 		for(HourContract c: contracts) {
 			
-			if(c.getDate().getYear() == year && c.getDate().getDayOfMonth() == month) {
-				sum += c.totalValeu();
+			if(c.getDate().getYear() == year && c.getDate().getMonthValue() == month) {
+				sum += c.totalValue();
 			}
 				
 		}
