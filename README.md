@@ -5,5 +5,5 @@
 <p> Exemplo de Execução <p/>
 <img src="img/Example.PNG"/>
 <br/>
-<p> Execução do Problema <p/>
+<p> Código do repositório em execução <p/>
 <img src="img/Execution.PNG"/>
